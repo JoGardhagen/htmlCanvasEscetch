@@ -1,3 +1,9 @@
 body{
     background-color: red;
 }
+.drawingBoard{
+    background-color: white;
+    width: 400;
+    height: 400;
+    
+}
