@@ -10,7 +10,7 @@
     canvas.background = 'white';
 
     ctx.strokeStyle = 'red';
-    ctx.lineWidth = 5;
+    ctx.lineWidth = 2;
 
     let moveAmount = 2;
 
