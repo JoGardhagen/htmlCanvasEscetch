@@ -1,9 +1,11 @@
 body{
-    background-color: red;
+    /* Nintendo Red */
+    background-color: rgb(230 0 18);
+
 }
 .drawingBoard{
     background-color: white;
-    width: 400;
-    height: 400;
+    width: 600px;
+    height: 500px;
     
 }
