@@ -32,9 +32,7 @@ document.addEventListener("keydown",function(event){
     else if(event.key === "ArrowDown"){
         lastY +=moveAmount;
     }
-    else if(event.key === "c"){
-        ctx.clear(0,0, canvas.width,canvas.height);
-    }
+    
 
     console.log(lastX,lastY)
     event.preventDefault();
@@ -42,4 +40,9 @@ document.addEventListener("keydown",function(event){
     ctx.beginPath();
     ctx.moveTo(lastX,lastY);
     ctx.fillRect(lastX,lastY,moveAmount,moveAmount);
+});
+document.addEventListener("keyup",function(event){
+    if(event.key === "c"){
+        ctx.clearRect(0,0, canvas.width,canvas.height);
+    }
 });
