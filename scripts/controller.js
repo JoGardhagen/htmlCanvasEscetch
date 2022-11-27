@@ -20,19 +20,19 @@
 // }
 document.addEventListener("keydown",function(event){
     console.log(event.witch);
-    if(event.keyCode === 37){
+    if(event.key === "ArrowLeft"){
         lastX -=moveAmount;
     }
-    else if(event.keyCode === 38){
+    else if(event.key === "ArrowUp"){
         lastY -=moveAmount;
     }
-    else if(event.keyCode === 39){
+    else if(event.key === "ArrowRight"){
         lastX +=moveAmount;
     }
-    else if(event.keyCode === 40){
+    else if(event.key === "ArrowDown"){
         lastY +=moveAmount;
     }
-    else if(event.keyCode === 21){
+    else if(event.key === "c"){
         ctx.clear(0,0, canvas.width,canvas.height);
     }
 
