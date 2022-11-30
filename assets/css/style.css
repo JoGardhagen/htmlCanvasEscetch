@@ -16,4 +16,7 @@ body{
     border: 10px solid #bbb;
     border-top: 10px solid black;
     width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
 }
