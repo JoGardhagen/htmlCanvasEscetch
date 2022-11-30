@@ -12,3 +12,8 @@ body{
     height: 400px;
     
 }
+.regulator{
+    border: 10px solid #bbb;
+    border-top: 10px solid black;
+    width: 130px;
+}
