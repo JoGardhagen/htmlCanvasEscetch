@@ -1,19 +1,13 @@
-// function draw(){
+
     const canvas = document.querySelector('#drawingBoard');
     const {width, height } = canvas;
     
-    // if(!canvas.getContext){
-    //     return;
-    // }
+
     const ctx = canvas.getContext('2d');
-
     canvas.background = 'white';
-
-    // ctx.strokeStyle = 'red';
     ctx.lineWidth = 2;
 
     let moveAmount = 2;
-
     let lastX = 0;
     let lastY = 0;
 
@@ -27,9 +21,8 @@
         duration: 200,
         iterations:1
     }
-    const leftRegulator = document.querySelector(".LeftRegulator");
-    const rightRegulator = document.querySelector(".RightRegulator");
-// }
+    const leftRegulator = document.querySelector('#Left');
+    const rightRegulator = document.querySelector('#Right');
 
 document.addEventListener("keydown",function(event){
     console.log(event.witch);
@@ -50,7 +43,6 @@ document.addEventListener("keydown",function(event){
         rightRegulator.animate(rotateRight,rotateTime);
     }
     
-
     console.log(lastX,lastY)
     event.preventDefault();
 
