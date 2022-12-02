@@ -1,15 +1,17 @@
 body{
-    /* Nintendo Red */
-    background-color: rgb(230 0 18);
+    
 
 }
 .mainContent{
     text-align: center;
+    /* Nintendo Red */
+    background-color: red;
 }
 #drawingBoard{
     background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    border: rgb(230 0 18) solid 20px;
     
 }
 #Regulators{
@@ -27,6 +29,7 @@ body{
 }
 .RightRegulator{
     display: inline-block;
+    margin-left: 50%;
     border: 8px solid #bbb;
     border-top: 8px solid black;
     width: 100px;

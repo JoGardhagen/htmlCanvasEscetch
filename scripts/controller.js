@@ -63,10 +63,10 @@ document.addEventListener("keyup",function(event){
     if(event.key === "c"){
         ctx.clearRect(0,0, canvas.width,canvas.height);
     }
+    else if(event.key===" "){
+        ctx.clearRect(0,0, canvas.width,canvas.height);
+    }
 });
-
-
-
 regulator.addEventListener('', ()=>{
     regulator.animate(rotateReg,rotateTime);
 });
