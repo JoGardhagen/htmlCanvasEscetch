@@ -12,11 +12,25 @@ body{
     height: 400px;
     
 }
-.regulator{
-    border: 10px solid #bbb;
-    border-top: 10px solid black;
-    width: 130px;
-    height: 130px;
+#Regulators{
+    align-items: baseline;
+}
+.LeftRegulator{
+    display: inline-block;
+    
+    border: 8px solid #bbb;
+    border-top: 8px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.RightRegulator{
+    display: inline-block;
+    border: 8px solid #bbb;
+    border-top: 8px solid black;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: white;
 }
